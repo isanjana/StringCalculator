@@ -1,4 +1,6 @@
+  
 language: objective-c
-xcode_project: StringCalculator.xcodeproj # path to your xcodeproj folder
-xcode_scheme: StringCalculatorTests
-xcode_destination: xcode_destination: platform=iOS Simulator,OS=13.2.2,name=iPhone X
+osx_image: xcode11.2
+xcode_project: StringCalculator.xcodeproj
+xcode_scheme: StringCalculator
+xcode_destination: platform=iOS Simulator,name=iPhone 11
